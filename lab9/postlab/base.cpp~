@@ -1,0 +1,10 @@
+#include <iostream>
+
+class base{
+public:
+  virtual void Method() {}
+};
+
+base* object = new Object();
+object ->Method();
+delete object;
