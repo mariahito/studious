@@ -1,0 +1,26 @@
+//Maria Hito mh4wt 22 01 2017 xToN.cpp
+#include<iostream>
+using namespace std;
+int xton(int,int);
+
+int main(){
+  int x,n,result;
+
+  cout<<"Enter base number: ";
+  cin>>x;
+
+  cout<<"Enter power number: ";
+  cin>>n;
+
+  result = xton(x,n);
+  cout<<x<<"^"<<n<<"="<<result<<endl;
+
+  return 0;
+}
+
+int xton(int x,int n){
+  if(n !=0)
+    return (x*xton(x,n-1));
+  else
+    return 1;
+}

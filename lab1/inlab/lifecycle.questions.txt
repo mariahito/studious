@@ -1,0 +1,8 @@
+// Maria Hito mh4wt 01 23 2017 lifecycle.questions.txt
+
+Question1:
+We I comment out the prototype getMaxMyObj() the compiler throws an error this is due to the fact that getMaxMyObj is not defined in the header therefore this function will not have any meaning on the cpp file
+
+Question 2:
+What does the numbers beside each name mean?
+what is the role of the destructor in the program?

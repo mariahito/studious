@@ -1,0 +1,7 @@
+//Maria Hito mh4wt 23 01 2017 vector.questions.txt
+
+If I comment out the #iclude<iostream> from the svtest.cpp the program will continue to run without any porblems
+
+Comment out the using namespace std; gives me a lot of error in the functions this is because without the using namespace std I would have to use colons to define the functions.
+
+when do yo use #include<string> and #include<vector>  ?
